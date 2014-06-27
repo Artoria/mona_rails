@@ -16,7 +16,6 @@ Bundle.install
 
 
 
-Dir.chdir 'app'
 person = Entity.new 'person'
 person.model name: 'string', age: 'integer'
 person.get 'say' do
